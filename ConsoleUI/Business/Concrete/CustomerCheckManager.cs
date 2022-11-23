@@ -1,6 +1,5 @@
 ﻿using ConsoleUI.Adapters;
 using Entities.Concrete;
-using MernisServiceReference;
 using System;
 using System.Collections.Generic;
 using System.Linq;

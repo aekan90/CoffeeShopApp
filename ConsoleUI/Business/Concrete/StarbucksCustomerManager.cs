@@ -17,13 +17,16 @@ namespace ConsoleUI.Business.Concrete
         {
             _personCheckService = personCheckService;
         }
-
-
         public override void Save(Customer customer)
         {
             if (_personCheckService.ChackIfRealPerson(customer))
+            {
                 base.Save(customer);
-            throw new Exception("Geçerli bir kişi değil");
+            }
+            else
+            {
+                Console.WriteLine("Kişi bilgileri geçersiz"); ;
+            }
         }
     }
 }

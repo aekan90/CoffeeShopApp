@@ -10,6 +10,6 @@ namespace ConsoleUI.Business.Concrete
 {
     public class NeroCustomerManager : BaseCustomerManager
     {
-         
+        // firmadan doğrulama talebi gelirse buraya da eklenecek
     }
 }

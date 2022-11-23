@@ -11,7 +11,6 @@ namespace ConsoleUI.Adapters
     {
         public bool ChackIfRealPerson(Customer customer)
         {
-            //MernisServiceReference.KPSPublicSoapClient client = new KPSPublicSoapClient();
             return true;
         }
     }

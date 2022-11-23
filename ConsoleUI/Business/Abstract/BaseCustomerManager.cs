@@ -11,7 +11,7 @@ namespace ConsoleUI.Business.Abstract
     {
         public virtual void Save(Customer customer)
         {
-            Console.WriteLine("Yeni Müşterimizi : ["+customer.FirstName+" "+customer.LastName +"] VeriTabanınakayıt edildi.");
+            Console.WriteLine("Yeni Müşterimiz : ["+customer.FirstName+" "+customer.LastName +"] VeriTabanına kayıt edildi.");
         }
     }
 }
