@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 using static MernisKPS.KPSPublicSoapClient;
 
 namespace ConsoleUI.Adapters
-{
+{ 
     public class MernisServiceAdapter : IPersonCheckService
     {
         public bool ChackIfRealPerson(Customer customer)
